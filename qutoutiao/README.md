@@ -1,0 +1,1 @@
+> 安装python3.7，add to path， cmd进入当前目录, 输入命令pip install -r requirements.txt, python run.py启动服务

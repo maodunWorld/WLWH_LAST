@@ -1,0 +1,2394 @@
+2019-05-25 09:26:11 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:26:11 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:27:26 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:27:26 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:32:40 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:32:40 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:32:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:32:40 [scrapy.extensions.telnet] INFO: Telnet Password: d85412ebb7a29f87
+2019-05-25 09:32:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:32:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:32:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:32:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:32:41 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:32:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:32:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:32:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:32:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 32, 41, 460817),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 32, 41, 195617)}
+2019-05-25 09:32:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:33:52 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:33:52 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:33:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:33:52 [scrapy.extensions.telnet] INFO: Telnet Password: 320a663a8ef6eaee
+2019-05-25 09:33:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:33:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:33:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:33:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:33:52 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:33:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:33:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:33:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:33:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 33, 53, 133217),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 33, 52, 889817)}
+2019-05-25 09:33:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:34:09 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:34:09 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:34:09 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:34:09 [scrapy.extensions.telnet] INFO: Telnet Password: 1a75ec983262f120
+2019-05-25 09:34:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:34:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:34:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:34:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:34:10 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:34:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:34:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:34:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:34:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 34, 10, 344217),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 34, 10, 94617)}
+2019-05-25 09:34:10 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:35:11 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:35:11 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:35:11 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:35:11 [scrapy.extensions.telnet] INFO: Telnet Password: 7b1fd79eb1bdbf02
+2019-05-25 09:35:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:35:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:35:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:35:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:35:11 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:35:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:35:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:35:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:35:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 35, 11, 810818),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 35, 11, 545618)}
+2019-05-25 09:35:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:35:54 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:35:54 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:35:54 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:35:54 [scrapy.extensions.telnet] INFO: Telnet Password: 038435e066c874c4
+2019-05-25 09:35:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:35:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:35:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:35:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:35:54 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:35:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:35:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:35:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:35:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 35, 55, 98418),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 35, 54, 810618)}
+2019-05-25 09:35:55 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:36:10 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:36:10 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:36:10 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:36:10 [scrapy.extensions.telnet] INFO: Telnet Password: 2ccc3b8033b85493
+2019-05-25 09:36:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:36:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:36:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:36:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:36:10 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:36:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:36:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:36:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:36:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 36, 11, 102218),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 36, 10, 842218)}
+2019-05-25 09:36:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:36:20 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:36:20 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:36:20 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:36:20 [scrapy.extensions.telnet] INFO: Telnet Password: 7f30c6f702d6d9db
+2019-05-25 09:36:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:36:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:36:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:36:20 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:36:20 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:36:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:36:20 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:36:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:36:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 36, 20, 849218),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 36, 20, 615218)}
+2019-05-25 09:36:20 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:36:28 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:36:28 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:36:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:36:28 [scrapy.extensions.telnet] INFO: Telnet Password: caeacf7002423cc6
+2019-05-25 09:36:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:36:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:36:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:36:28 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:36:28 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:36:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:36:28 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:36:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 15, in parse
+    title = li.xpath("./a[@class='figure']/@href").extract_one()
+AttributeError: 'SelectorList' object has no attribute 'extract_one'
+2019-05-25 09:36:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:36:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 36, 29, 13818),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 36, 28, 670618)}
+2019-05-25 09:36:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:36:52 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:36:52 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:36:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:36:52 [scrapy.extensions.telnet] INFO: Telnet Password: d8a7258e55e18f4b
+2019-05-25 09:36:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:36:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:36:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:36:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:36:53 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:36:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:36:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:36:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:36:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 36, 53, 425819),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 36, 53, 191819)}
+2019-05-25 09:36:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:37:42 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:37:42 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:37:42 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:37:42 [scrapy.extensions.telnet] INFO: Telnet Password: a4b624bf1880fe70
+2019-05-25 09:37:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:37:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:37:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:37:43 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:37:43 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:37:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:37:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:37:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:37:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 37, 44, 347019),
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 37, 43, 238019)}
+2019-05-25 09:37:44 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:42:40 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:42:40 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:42:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:42:40 [scrapy.extensions.telnet] INFO: Telnet Password: a40e8b3f33da69c9
+2019-05-25 09:42:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:42:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:42:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:42:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:42:40 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:42:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:42:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:42:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:42:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 11977,
+ 'downloader/request_count': 31,
+ 'downloader/request_method_count/GET': 31,
+ 'downloader/response_bytes': 1161501,
+ 'downloader/response_count': 31,
+ 'downloader/response_status_count/200': 31,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 42, 41, 636020),
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 31,
+ 'scheduler/dequeued': 31,
+ 'scheduler/dequeued/memory': 31,
+ 'scheduler/enqueued': 31,
+ 'scheduler/enqueued/memory': 31,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 42, 40, 408420)}
+2019-05-25 09:42:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:42:41 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:46:56 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:46:56 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:46:56 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:46:56 [scrapy.extensions.telnet] INFO: Telnet Password: ea5cf6e669b84ec8
+2019-05-25 09:46:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:46:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:46:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:46:56 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:46:56 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:46:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:46:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:47:01 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:47:01 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:47:01 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:49:20 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:49:20 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:49:20 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:49:20 [scrapy.extensions.telnet] INFO: Telnet Password: f3527b85de94335d
+2019-05-25 09:49:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:49:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:49:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:49:20 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:49:20 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:49:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:49:20 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:49:24 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:49:24 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:49:25 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:52:58 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:52:58 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:52:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:52:58 [scrapy.extensions.telnet] INFO: Telnet Password: 7f688134edd105a0
+2019-05-25 09:52:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:52:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:52:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:52:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:52:58 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:52:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:52:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:53:06 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:53:06 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:53:06 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:53:18 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:53:18 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:53:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:53:18 [scrapy.extensions.telnet] INFO: Telnet Password: 554cfd291fdec6c0
+2019-05-25 09:53:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:53:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:53:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:53:18 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:53:18 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:53:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:53:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:53:22 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:53:22 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:53:22 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:53:38 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:53:38 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:53:38 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:53:38 [scrapy.extensions.telnet] INFO: Telnet Password: 6b4c27b3ce46a420
+2019-05-25 09:53:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:53:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:53:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:53:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:53:38 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:53:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:53:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:53:41 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:53:41 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:53:41 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:53:55 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:53:55 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:53:55 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:53:55 [scrapy.extensions.telnet] INFO: Telnet Password: 2c229831cb167748
+2019-05-25 09:53:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:53:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:53:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:53:55 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:53:55 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:53:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:53:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:53:59 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:53:59 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:54:00 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:54:21 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:54:21 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:54:21 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:54:21 [scrapy.extensions.telnet] INFO: Telnet Password: 9f347759bb8b651e
+2019-05-25 09:54:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:54:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:54:21 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:54:21 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:54:21 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:54:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:54:21 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:54:24 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:54:24 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:54:24 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:56:18 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:56:18 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:56:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:56:18 [scrapy.extensions.telnet] INFO: Telnet Password: 5a4a93b2a34e090b
+2019-05-25 09:56:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:56:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:56:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:56:18 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:56:18 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:56:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:56:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:56:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    imgurl = "https:" + li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:56:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:56:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 56, 18, 981823),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 56, 18, 732223)}
+2019-05-25 09:56:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:56:44 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:56:44 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:56:44 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:56:44 [scrapy.extensions.telnet] INFO: Telnet Password: 0ce77777a6775bea
+2019-05-25 09:56:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:56:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:56:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:56:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:56:44 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:56:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:56:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:56:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    imgurl = "https:" + li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:56:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:56:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 56, 45, 4023),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 56, 44, 785623)}
+2019-05-25 09:56:45 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:57:03 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:57:03 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:57:03 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:57:03 [scrapy.extensions.telnet] INFO: Telnet Password: 0941782f6006a334
+2019-05-25 09:57:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:57:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:57:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:57:03 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:57:03 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:57:03 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:57:03 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:57:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 18, in parse
+    imgurl = "https:" + li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:57:04 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:57:04 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 57, 4, 35823),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 57, 3, 786223)}
+2019-05-25 09:57:04 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:57:18 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:57:18 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:57:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:57:18 [scrapy.extensions.telnet] INFO: Telnet Password: 30ec29623b5a1935
+2019-05-25 09:57:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:57:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:57:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:57:19 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:57:19 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:57:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:57:19 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:57:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 18, in parse
+    imgurl = "https:" + li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:57:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:57:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 57, 19, 495423),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 57, 19, 261423)}
+2019-05-25 09:57:19 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:57:36 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:57:36 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:57:36 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:57:36 [scrapy.extensions.telnet] INFO: Telnet Password: dee78982e9f3c7aa
+2019-05-25 09:57:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:57:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:57:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:57:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:57:37 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:57:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:57:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:57:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 13, in parse
+    ul = response.xpath("//div[@class='list_item']").extract_all()
+AttributeError: 'SelectorList' object has no attribute 'extract_all'
+2019-05-25 09:57:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:57:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 57, 37, 355424),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 57, 37, 104424)}
+2019-05-25 09:57:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:57:47 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:57:47 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:57:47 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:57:47 [scrapy.extensions.telnet] INFO: Telnet Password: b6ef0ba1ab3ee4cf
+2019-05-25 09:57:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:57:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:57:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:57:48 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:57:48 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:57:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:57:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:57:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 18, in parse
+    imgurl = "https:" + li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:57:48 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:57:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 57, 48, 353424),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 57, 48, 135024)}
+2019-05-25 09:57:48 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:57:55 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:57:55 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:57:55 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:57:55 [scrapy.extensions.telnet] INFO: Telnet Password: d6db0a345533cfb1
+2019-05-25 09:57:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:57:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:57:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:57:55 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:57:55 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:57:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:57:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:57:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    imgurl = "https:" + li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:57:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:57:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 57, 55, 630224),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 57, 55, 397824)}
+2019-05-25 09:57:55 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:58:42 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:58:42 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:58:42 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:58:42 [scrapy.extensions.telnet] INFO: Telnet Password: bc035efe144c6533
+2019-05-25 09:58:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:58:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:58:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:58:42 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:58:42 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:58:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:58:42 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:58:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    imgurl = li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:58:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:58:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 58, 42, 918424),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 58, 42, 700024)}
+2019-05-25 09:58:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:58:52 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:58:52 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:58:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:58:52 [scrapy.extensions.telnet] INFO: Telnet Password: 6eb870451227a373
+2019-05-25 09:58:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:58:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:58:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:58:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:58:53 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:58:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:58:53 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:58:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    imgurl = li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:58:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:58:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 58, 53, 338824),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 58, 53, 112424)}
+2019-05-25 09:58:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:59:05 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:59:05 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:59:05 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:59:05 [scrapy.extensions.telnet] INFO: Telnet Password: ba8eb75161672ba8
+2019-05-25 09:59:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:59:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:59:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:59:05 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:59:05 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:59:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:59:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:59:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    imgurl = li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:59:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:59:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 59, 6, 65824),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 59, 5, 800624)}
+2019-05-25 09:59:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:59:15 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:59:15 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:59:15 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:59:15 [scrapy.extensions.telnet] INFO: Telnet Password: 8410486ce053c993
+2019-05-25 09:59:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:59:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:59:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:59:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:59:15 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:59:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:59:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:59:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 18, in parse
+    imgurl = li.xpath("./@[@class='figure']/img/@src").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1586, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in ./@[@class='figure']/img/@src
+2019-05-25 09:59:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 09:59:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 1, 59, 16, 152424),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 1, 59, 15, 925624)}
+2019-05-25 09:59:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 09:59:25 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:59:25 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:59:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:59:25 [scrapy.extensions.telnet] INFO: Telnet Password: b7b329707a948d2d
+2019-05-25 09:59:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:59:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:59:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:59:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:59:25 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:59:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:59:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:59:28 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:59:28 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:59:28 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 09:59:52 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 09:59:52 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 09:59:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 09:59:52 [scrapy.extensions.telnet] INFO: Telnet Password: c788b0783426bd66
+2019-05-25 09:59:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 09:59:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 09:59:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 09:59:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 09:59:52 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 09:59:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 09:59:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 09:59:55 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 09:59:55 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 09:59:55 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 10:00:05 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:00:05 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:00:05 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:00:05 [scrapy.extensions.telnet] INFO: Telnet Password: 1df84f822be81ea0
+2019-05-25 10:00:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:00:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:00:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:00:05 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 10:00:05 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:00:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:00:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:00:09 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 10:00:09 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 10:00:09 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 10:08:54 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:08:54 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:08:54 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:08:54 [scrapy.extensions.telnet] INFO: Telnet Password: e4758bc5ccc5e840
+2019-05-25 10:08:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:08:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:08:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:08:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 10:08:54 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:08:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:08:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:08:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    item["playurl"] = li.xpath("./a[@class='figure']/@href").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'QqItem does not support field: playurl'
+2019-05-25 10:08:54 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 10:08:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4528,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 2, 8, 54, 991827),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 2, 8, 54, 428227)}
+2019-05-25 10:08:54 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 10:09:08 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:09:08 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:10:12 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:10:12 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:10:12 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:10:12 [scrapy.extensions.telnet] INFO: Telnet Password: 0e4195ed490b8df7
+2019-05-25 10:10:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:10:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:10:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:10:12 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 10:10:12 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:10:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:10:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:10:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+2019-05-25 10:10:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    item["playurl"] = li.xpath("./a[@class='figure']/@href").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'QqItem does not support field: playurl'
+2019-05-25 10:10:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 10:10:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 2, 10, 12, 889027),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 2, 10, 12, 639427)}
+2019-05-25 10:10:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 10:10:24 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:10:24 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:10:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:10:24 [scrapy.extensions.telnet] INFO: Telnet Password: b08b61f3ab703e1f
+2019-05-25 10:10:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:10:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:10:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:10:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 10:10:24 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:10:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:10:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:10:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+2019-05-25 10:10:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    item["playurl"] = li.xpath("./a[@class='figure']/@href").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'QqItem does not support field: playurl'
+2019-05-25 10:10:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 10:10:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4528,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 2, 10, 24, 841427),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 2, 10, 24, 576227)}
+2019-05-25 10:10:24 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 10:10:33 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:10:33 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:10:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:10:33 [scrapy.extensions.telnet] INFO: Telnet Password: e1afe315e7e2bc00
+2019-05-25 10:10:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:10:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:10:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:10:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 10:10:33 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:10:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:10:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:10:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+2019-05-25 10:10:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    item["playurl"] = li.xpath("./a[@class='figure']/@href").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'QqItem does not support field: playurl'
+2019-05-25 10:10:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 10:10:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 2, 10, 34, 76027),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 2, 10, 33, 842027)}
+2019-05-25 10:10:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 10:10:47 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:10:47 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:10:47 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:10:47 [scrapy.extensions.telnet] INFO: Telnet Password: 8c053c0839257cef
+2019-05-25 10:10:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:10:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:10:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:10:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-25 10:10:47 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:10:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:10:47 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:10:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+2019-05-25 10:10:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 19, in parse
+    item["playurl"] = li.xpath("./a[@class='figure']/@href").extract_first()
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'QqItem does not support field: playurl'
+2019-05-25 10:10:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-05-25 10:10:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 337,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4123,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 5, 25, 2, 10, 47, 924827),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2019, 5, 25, 2, 10, 47, 695827)}
+2019-05-25 10:10:47 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-05-25 10:41:25 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 10:41:25 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 10:41:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 10:41:25 [scrapy.extensions.telnet] INFO: Telnet Password: ba40570938f916b5
+2019-05-25 10:41:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 10:41:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 10:41:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 10:41:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.QqDownloadVideoPipeline']
+2019-05-25 10:41:25 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 10:41:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 10:41:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 10:41:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=1&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=2&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=3&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=4&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=5&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=6&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=7&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=8&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=9&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=10&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://v.qq.com/x/bu/pagesheet/list?_all=1&append=1&channel=tech&listpage=11&offset=0&pagesize=30&sort=5> (referer: None)
+Traceback (most recent call last):
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\projcet\venv\wl.spider.video\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Project\wl_spider_video\wl_spider_video\spiders\qqvideo.py", line 17, in parse
+    print(response.meta["start_url"])
+KeyError: 'start_url'
+2019-05-25 10:41:38 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 10:41:38 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 10:41:38 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-25 13:29:51 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-25 13:29:51 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-25 13:29:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'CONCURRENT_REQUESTS': 4, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log/scrapy_2019_5_25.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-25 13:29:51 [scrapy.extensions.telnet] INFO: Telnet Password: bb38352dfbef2489
+2019-05-25 13:29:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-25 13:29:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-25 13:29:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-25 13:29:51 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.QqDownloadVideoPipeline',
+ 'wl_spider_video.pipelines.QqSavePipeline']
+2019-05-25 13:29:51 [scrapy.core.engine] INFO: Spider opened
+2019-05-25 13:29:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-25 13:29:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-25 13:29:55 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-25 13:29:55 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-25 13:29:55 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown

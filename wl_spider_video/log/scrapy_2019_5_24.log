@@ -1,0 +1,593 @@
+2019-05-24 11:38:25 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-24 11:38:25 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-24 11:38:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_24.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-24 11:38:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_24.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-24 11:38:25 [scrapy.extensions.telnet] INFO: Telnet Password: ef71bc7a27408af6
+2019-05-24 11:38:25 [scrapy.extensions.telnet] INFO: Telnet Password: 93e67cc567327956
+2019-05-24 11:38:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-24 11:38:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-24 11:38:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-24 11:38:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-24 11:38:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-24 11:38:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-24 11:38:25 [scrapy.core.engine] INFO: Spider opened
+2019-05-24 11:38:25 [scrapy.core.engine] INFO: Spider opened
+2019-05-24 11:38:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-24 11:38:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-24 11:38:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-05-24 11:38:36 [iqiyi] INFO: 丢弃重复条目 iPhone也心酸：5388降至2688，销量真香，但库克不开心！
+2019-05-24 11:38:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '00:59',
+ 'imageUrl': 'http://pic2.iqiyipic.com/image/20190524/3d/e9/v_129948253_m_601.jpg',
+ 'name': 'iPhone也心酸：5388降至2688，销量真香，但库克不开心！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66x5k.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:38:46 [iqiyi] INFO: 丢弃重复条目 Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！
+2019-05-24 11:38:46 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:20',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/5d/14/v_129948332_m_601.jpg',
+ 'name': 'Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso65728.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:38:47 [iqiyi] INFO: 丢弃重复条目 iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格
+2019-05-24 11:38:47 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:06',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/cc/42/v_129948063_m_601.jpg',
+ 'name': 'iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66l6o.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:38:54 [iqiyi] INFO: 丢弃重复条目 iPhone无奈加速退场，7788元降至3388，你还会买苹果
+2019-05-24 11:38:54 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:03',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/bb/c9/v_129948087_m_601.jpg',
+ 'name': 'iPhone无奈加速退场，7788元降至3388，你还会买苹果',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66ayc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:28 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: wl_spider_video)
+2019-05-24 11:54:28 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-24 11:54:28 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-24 11:54:28 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-7-6.1.7601-SP1
+2019-05-24 11:54:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_24.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-24 11:54:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_24.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-24 11:54:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'wl_spider_video', 'LOG_FILE': 'log/scrapy_2019_5_24.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'wl_spider_video.spiders', 'SPIDER_MODULES': ['wl_spider_video.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'}
+2019-05-24 11:54:28 [scrapy.extensions.telnet] INFO: Telnet Password: 6bbbe87f41aa00c0
+2019-05-24 11:54:28 [scrapy.extensions.telnet] INFO: Telnet Password: 09cd2fb69b4973f5
+2019-05-24 11:54:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-24 11:54:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['wl_spider_video.pipelines.IqiyiDownloadVideoPipeline']
+2019-05-24 11:54:29 [scrapy.core.engine] INFO: Spider opened
+2019-05-24 11:54:29 [scrapy.core.engine] INFO: Spider opened
+2019-05-24 11:54:29 [scrapy.core.engine] INFO: Spider opened
+2019-05-24 11:54:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-24 11:54:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-24 11:54:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-05-24 11:54:29 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-05-24 11:54:29 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-05-24 11:54:29 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2019-05-24 11:54:36 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-24 11:54:36 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-24 11:54:36 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-24 11:54:36 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-24 11:54:36 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-05-24 11:54:36 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 海南省大数据管理局挂牌成立
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '',
+ 'duration': '01:28',
+ 'imageUrl': 'http://pic3.iqiyipic.com/image/20190524/73/99/v_129949486_m_601.jpg',
+ 'name': '海南省大数据管理局挂牌成立',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6exmk.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 Iqoo和小米9被狙击，黑马杀入市场，这一次注定不平凡！
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:31',
+ 'imageUrl': 'http://pic1.iqiyipic.com/image/20190524/1b/91/v_129948311_m_601.jpg',
+ 'name': 'Iqoo和小米9被狙击，黑马杀入市场，这一次注定不平凡！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso654bc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone也心酸：5388降至2688，销量真香，但库克不开心！
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '00:59',
+ 'imageUrl': 'http://pic2.iqiyipic.com/image/20190524/3d/e9/v_129948253_m_601.jpg',
+ 'name': 'iPhone也心酸：5388降至2688，销量真香，但库克不开心！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66x5k.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone新款已将来袭，3摄加乔布斯经典，网友：冲它必须买！
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:21',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/3a/be/v_129948107_m_601.jpg',
+ 'name': 'iPhone新款已将来袭，3摄加乔布斯经典，网友：冲它必须买！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso665jw.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 5月最值得购买的三款高颜值手机，看看你是否已经入手了呢？
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:20',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/5d/14/v_129948332_m_601.jpg',
+ 'name': 'Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso65728.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '买手机到底该选择高颜值还是选择高性价比，这是目前换手机时最头疼的问题。正在这个问题上犹豫的大家先别着急，今天我们一起看一下这几款集才华与美貌于一体的手机，想必能解决大家的苦恼。',
+ 'duration': '01:51',
+ 'imageUrl': 'http://pic2.iqiyipic.com/image/20190524/fe/d3/v_129949571_m_601.jpg',
+ 'name': '5月最值得购买的三款高颜值手机，看看你是否已经入手了呢？',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6fu18.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:06',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/cc/42/v_129948063_m_601.jpg',
+ 'name': 'iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66l6o.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 Iqoo和小米9被狙击，黑马杀入市场，这一次注定不平凡！
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone无奈加速退场，7788元降至3388，你还会买苹果
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:31',
+ 'imageUrl': 'http://pic1.iqiyipic.com/image/20190524/1b/91/v_129948311_m_601.jpg',
+ 'name': 'Iqoo和小米9被狙击，黑马杀入市场，这一次注定不平凡！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso654bc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:03',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/bb/c9/v_129948087_m_601.jpg',
+ 'name': 'iPhone无奈加速退场，7788元降至3388，你还会买苹果',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66ayc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone也心酸：5388降至2688，销量真香，但库克不开心！
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 有了这个科技，铲屎官再也不需要铲屎，只管天天撸猫就行
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '00:59',
+ 'imageUrl': 'http://pic2.iqiyipic.com/image/20190524/3d/e9/v_129948253_m_601.jpg',
+ 'name': 'iPhone也心酸：5388降至2688，销量真香，但库克不开心！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66x5k.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '',
+ 'duration': '01:32',
+ 'imageUrl': 'http://pic3.iqiyipic.com/image/20190523/e5/c7/v_129890913_m_601.jpg',
+ 'name': '有了这个科技，铲屎官再也不需要铲屎，只管天天撸猫就行',
+ 'playUrl': 'http://www.iqiyi.com/v_19rsnb9xm8.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone新款已将来袭，3摄加乔布斯经典，网友：冲它必须买！
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:21',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/3a/be/v_129948107_m_601.jpg',
+ 'name': 'iPhone新款已将来袭，3摄加乔布斯经典，网友：冲它必须买！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso665jw.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:06',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/cc/42/v_129948063_m_601.jpg',
+ 'name': 'iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66l6o.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:20',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/5d/14/v_129948332_m_601.jpg',
+ 'name': 'Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso65728.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhone无奈加速退场，7788元降至3388，你还会买苹果
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:03',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/bb/c9/v_129948087_m_601.jpg',
+ 'name': 'iPhone无奈加速退场，7788元降至3388，你还会买苹果',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66ayc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 有了这个科技，铲屎官再也不需要铲屎，只管天天撸猫就行
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '',
+ 'duration': '01:32',
+ 'imageUrl': 'http://pic3.iqiyipic.com/image/20190523/e5/c7/v_129890913_m_601.jpg',
+ 'name': '有了这个科技，铲屎官再也不需要铲屎，只管天天撸猫就行',
+ 'playUrl': 'http://www.iqiyi.com/v_19rsnb9xm8.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:36 [iqiyi] INFO: 丢弃重复条目 iPhoneXI概念机曝光，刘海彻底“消除”，网友：砸锅卖铁也要买！
+2019-05-24 11:54:36 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:14',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/80/4e/v_129947252_m_601.jpg',
+ 'name': 'iPhoneXI概念机曝光，刘海彻底“消除”，网友：砸锅卖铁也要买！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso7a9ds.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-24 11:54:37 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso789d8.html you-get失败
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:35',
+ 'imageUrl': 'http://pic4.iqiyipic.com/image/20190524/80/66/v_129947342_m_601.jpg',
+ 'name': 'iPhone概念新机：屏占比94％ ，刘海变窄，比小米9更好看',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso789d8.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-24 11:54:37 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso7a9ds.html you-get失败
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:14',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/80/4e/v_129947252_m_601.jpg',
+ 'name': 'iPhoneXI概念机曝光，刘海彻底“消除”，网友：砸锅卖铁也要买！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso7a9ds.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-05-24 11:54:37 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso6ef9g.html you-get失败
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 10,
+ 'description': '一个关于信守并履行承诺的中华美德故事，"兔侠"形象取自于从明代至今，京津地区中秋时节常见的儿童玩偶"兔儿爷"，具有很强的中国味道',
+ 'duration': '02:11',
+ 'imageUrl': 'http://pic5.iqiyipic.com/image/20190524/9c/ef/v_129949820_m_601.jpg',
+ 'name': '兔侠传奇：打杂兔二去挑水，进入厨房被赶出',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6ef9g.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 海南省大数据管理局挂牌成立
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '',
+ 'duration': '01:28',
+ 'imageUrl': 'http://pic3.iqiyipic.com/image/20190524/73/99/v_129949486_m_601.jpg',
+ 'name': '海南省大数据管理局挂牌成立',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6exmk.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 5月最值得购买的三款高颜值手机，看看你是否已经入手了呢？
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '买手机到底该选择高颜值还是选择高性价比，这是目前换手机时最头疼的问题。正在这个问题上犹豫的大家先别着急，今天我们一起看一下这几款集才华与美貌于一体的手机，想必能解决大家的苦恼。',
+ 'duration': '01:51',
+ 'imageUrl': 'http://pic2.iqiyipic.com/image/20190524/fe/d3/v_129949571_m_601.jpg',
+ 'name': '5月最值得购买的三款高颜值手机，看看你是否已经入手了呢？',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6fu18.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 Iqoo和小米9被狙击，黑马杀入市场，这一次注定不平凡！
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:31',
+ 'imageUrl': 'http://pic1.iqiyipic.com/image/20190524/1b/91/v_129948311_m_601.jpg',
+ 'name': 'Iqoo和小米9被狙击，黑马杀入市场，这一次注定不平凡！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso654bc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 iPhone也心酸：5388降至2688，销量真香，但库克不开心！
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '00:59',
+ 'imageUrl': 'http://pic2.iqiyipic.com/image/20190524/3d/e9/v_129948253_m_601.jpg',
+ 'name': 'iPhone也心酸：5388降至2688，销量真香，但库克不开心！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66x5k.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 iPhone新款已将来袭，3摄加乔布斯经典，网友：冲它必须买！
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:21',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/3a/be/v_129948107_m_601.jpg',
+ 'name': 'iPhone新款已将来袭，3摄加乔布斯经典，网友：冲它必须买！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso665jw.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:06',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/cc/42/v_129948063_m_601.jpg',
+ 'name': 'iPhone手机“内战”，iPhoneX将重新生产，挑战XR最低新价格',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66l6o.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:20',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/5d/14/v_129948332_m_601.jpg',
+ 'name': 'Iqoo来势汹汹，雷军搬出“杀手锏”，小米9有望胜出！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso65728.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 iPhone无奈加速退场，7788元降至3388，你还会买苹果
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:03',
+ 'imageUrl': 'http://pic9.iqiyipic.com/image/20190524/bb/c9/v_129948087_m_601.jpg',
+ 'name': 'iPhone无奈加速退场，7788元降至3388，你还会买苹果',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso66ayc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 有了这个科技，铲屎官再也不需要铲屎，只管天天撸猫就行
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '',
+ 'duration': '01:32',
+ 'imageUrl': 'http://pic3.iqiyipic.com/image/20190523/e5/c7/v_129890913_m_601.jpg',
+ 'name': '有了这个科技，铲屎官再也不需要铲屎，只管天天撸猫就行',
+ 'playUrl': 'http://www.iqiyi.com/v_19rsnb9xm8.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 iPhoneXI概念机曝光，刘海彻底“消除”，网友：砸锅卖铁也要买！
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:14',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/80/4e/v_129947252_m_601.jpg',
+ 'name': 'iPhoneXI概念机曝光，刘海彻底“消除”，网友：砸锅卖铁也要买！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso7a9ds.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:37 [iqiyi] INFO: 丢弃重复条目 iPhone概念新机：屏占比94％ ，刘海变窄，比小米9更好看
+2019-05-24 11:54:37 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:35',
+ 'imageUrl': 'http://pic4.iqiyipic.com/image/20190524/80/66/v_129947342_m_601.jpg',
+ 'name': 'iPhone概念新机：屏占比94％ ，刘海变窄，比小米9更好看',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso789d8.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:38 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso6extw.html you-get失败
+2019-05-24 11:54:38 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 27,
+ 'description': '更多精彩电影与你分享~火力地堡、幻体：续命游戏、极度深寒、逆时营救、绿灯侠',
+ 'duration': '02:08',
+ 'imageUrl': 'http://pic0.iqiyipic.com/image/20190524/ab/52/v_129949502_m_601.jpg',
+ 'name': '杀手收到神秘快递，打开发现会动的兵人，两队展开猛烈的攻击！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6extw.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:38 [iqiyi] INFO: 丢弃重复条目 iPhone8价格走向谷底，已经降至“小米价”，小米9何去何从？
+2019-05-24 11:54:38 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:33',
+ 'imageUrl': 'http://pic5.iqiyipic.com/image/20190524/4b/4b/v_129947257_m_601.jpg',
+ 'name': 'iPhone8价格走向谷底，已经降至“小米价”，小米9何去何从？',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso7a8hc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:38 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso7a8hc.html you-get失败
+2019-05-24 11:54:38 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:33',
+ 'imageUrl': 'http://pic5.iqiyipic.com/image/20190524/4b/4b/v_129947257_m_601.jpg',
+ 'name': 'iPhone8价格走向谷底，已经降至“小米价”，小米9何去何从？',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso7a8hc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso6ih8c.html you-get失败
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 10,
+ 'description': '',
+ 'duration': '04:51',
+ 'imageUrl': 'http://pic4.iqiyipic.com/image/20190524/b7/72/v_129950078_m_601.jpg',
+ 'name': '相爱十年：玻璃擦得真够亮的！让小伙直接撞上，玻璃：真疼啊！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6ih8c.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso6e2zs.html you-get失败
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 27,
+ 'description': '',
+ 'duration': '01:35',
+ 'imageUrl': 'http://pic3.iqiyipic.com/image/20190524/af/37/v_129949880_m_601.jpg',
+ 'name': '海贼王：恶魔果实之“最”盘点，最强恶魔果实没人能想到',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6e2zs.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 10,
+ 'description': '都市夜生活这个多发故事场景,展示都市白领的困惑和选择\n这悬疑很巧妙',
+ 'duration': '03:21',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/22/8a/v_129949663_m_601.jpg',
+ 'name': '夜魅之醉宿：分手都可以高高在上！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6ff08.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [iqiyi] INFO: 丢弃重复条目 夜魅之醉宿：分手都可以高高在上！
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 10,
+ 'description': '都市夜生活这个多发故事场景,展示都市白领的困惑和选择\n这悬疑很巧妙',
+ 'duration': '03:21',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/22/8a/v_129949663_m_601.jpg',
+ 'name': '夜魅之醉宿：分手都可以高高在上！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6ff08.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso782yg.html you-get失败
+2019-05-24 11:54:39 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://pcw-api.iqiyi.com/search/video/videolists?access_play_control_platform=14&channel_id=10&data_type=2&from=pcw_list&is_album_finished=&is_purchase=&key=&market_release_date_level=&mode=4&pageNum=1&pageSize=900&site=iqiyi&source_type=1&three_category_id=1006;must&without_qipu=1. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:36',
+ 'imageUrl': 'http://pic6.iqiyipic.com/image/20190524/14/a9/v_129947366_m_601.jpg',
+ 'name': 'iPhone概念新机来袭，卖的不是手机，而是艺术品！',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso782yg.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://pcw-api.iqiyi.com/search/video/videolists?access_play_control_platform=14&channel_id=10&data_type=2&from=pcw_list&is_album_finished=&is_purchase=&key=&market_release_date_level=&mode=4&pageNum=1&pageSize=900&site=iqiyi&source_type=1&three_category_id=1007;must&without_qipu=1. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2019-05-24 11:54:39 [iqiyi] ERROR: 下载视屏 http://www.iqiyi.com/v_19rso6erno.html you-get失败
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 10,
+ 'description': '姐妹俩不慎落入47米的深海，伸手不见五指，与大白鲨斗智斗勇',
+ 'duration': '02:28',
+ 'imageUrl': 'http://pic5.iqiyipic.com/image/20190524/7c/ad/v_129949523_m_601.jpg',
+ 'name': '鲨海，两位美女深海中求救，其中一位已经快不行了',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso6erno.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [iqiyi] INFO: 丢弃重复条目 iPhone概念新机：屏占比94％ ，刘海变窄，比小米9更好看
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:35',
+ 'imageUrl': 'http://pic4.iqiyipic.com/image/20190524/80/66/v_129947342_m_601.jpg',
+ 'name': 'iPhone概念新机：屏占比94％ ，刘海变窄，比小米9更好看',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso789d8.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
+2019-05-24 11:54:39 [iqiyi] INFO: 丢弃重复条目 iPhone8价格走向谷底，已经降至“小米价”，小米9何去何从？
+2019-05-24 11:54:39 [scrapy.core.scraper] WARNING: Dropped: 
+{'channelId': 30,
+ 'description': '最新的数码手机科技',
+ 'duration': '01:33',
+ 'imageUrl': 'http://pic5.iqiyipic.com/image/20190524/4b/4b/v_129947257_m_601.jpg',
+ 'name': 'iPhone8价格走向谷底，已经降至“小米价”，小米9何去何从？',
+ 'playUrl': 'http://www.iqiyi.com/v_19rso7a8hc.html',
+ 'site': 'iqiyi',
+ 'time': '2019-05-24'}
