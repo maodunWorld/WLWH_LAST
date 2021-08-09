@@ -9,7 +9,7 @@ opencv-python==4.1.0.25
 pika==1.0.1
 PyMySQL==0.9.3
 pyreadline==2.1
-pywin32==224
+pywin32==301
 redis==3.2.1
 requests==2.22.0
 selenium==3.141.0
