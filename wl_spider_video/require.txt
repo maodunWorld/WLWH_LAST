@@ -21,7 +21,7 @@ PyHamcrest==1.9.0
 PyMySQL==0.9.3
 pyOpenSSL==19.0.0
 pypiwin32==223
-pywin32==224
+pywin32==301
 queuelib==1.5.0
 redis==3.2.1
 requests==2.22.0
