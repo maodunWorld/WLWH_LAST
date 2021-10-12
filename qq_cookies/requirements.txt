@@ -7,7 +7,7 @@ idna==2.8
 inflect==2.1.0
 lazyspider==0.0.3
 numpy==1.16.4
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 pika==1.0.1
 PyMySQL==0.9.3
 pyreadline==2.1
